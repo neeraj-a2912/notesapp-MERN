@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+.App {
+  font-family: "Poppins";
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Note Item */
+.note-card {
+  padding: 10px;
+  margin: 10px auto;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.note-card .title-edit-delete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-card p {
+  margin: 0;
+}
+
+.note-card .title-edit-delete .title p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.note-card .title-edit-delete .edit-delete {
+  display: flex;
+  justify-content: space-between;
+}
+
+.note-card .title-edit-delete .edit-delete a {
+  margin: 0 5px;
+  font-size: 18px;
+  color: grey;
+}
+
+/* Notes */
+
+.no-notes {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Navbar */
+
+navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  color: white;
+  padding: 5px;
+  margin: 5px auto;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  border-radius: 4px;
+}
+
+navbar .logo {
+  margin: auto 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+navbar .logo a {
+  text-decoration: none;
+  color: white;
+}
+
+navbar .add-logout {
+  display: flex;
+  justify-content: center;
+}
+navbar .add-logout a {
+  margin: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+/* New Note */
+
+form {
+  width: 70%;
+  margin: 24px auto;
+}
+
+form label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+form input,
+textarea {
+  width: 95%;
+  padding: 12px;
+  outline: none;
+  margin: 10px 0;
+  font-family: Poppins;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(220, 222, 225);
+  border-radius: 4px;
+}
+
+form button {
+  background-color: grey;
+  border: none;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  font: inherit;
+  border-radius: 4px;
+}
+
+form p,
+a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.login-register {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+/* Alert */
+
+.alert {
+  text-align: center;
+  color: red;
+}
